@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["http://localhost:8080,https://server-8utn.vercel.app"],
+    origin: ["http://localhost:8080", "https://server-8utn.vercel.app"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
